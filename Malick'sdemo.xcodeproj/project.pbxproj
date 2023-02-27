@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F783CCF129AD3B67005CAC6A /* Malick_sdemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F783CCF029AD3B67005CAC6A /* Malick_sdemoApp.swift */; };
+		F783CCF329AD3B67005CAC6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F783CCF229AD3B67005CAC6A /* ContentView.swift */; };
+		F783CCF529AD3B69005CAC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F783CCF429AD3B69005CAC6A /* Assets.xcassets */; };
+		F783CCF929AD3B69005CAC6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F783CCF829AD3B69005CAC6A /* Preview Assets.xcassets */; };
+		F783CD0329AD3B6A005CAC6A /* Malick_sdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F783CD0229AD3B6A005CAC6A /* Malick_sdemoTests.swift */; };
+		F783CD0D29AD3B6A005CAC6A /* Malick_sdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F783CD0C29AD3B6A005CAC6A /* Malick_sdemoUITests.swift */; };
+		F783CD0F29AD3B6A005CAC6A /* Malick_sdemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F783CD0E29AD3B6A005CAC6A /* Malick_sdemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F783CCFF29AD3B6A005CAC6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F783CCE529AD3B67005CAC6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F783CCEC29AD3B67005CAC6A;
+			remoteInfo = "Malick'sdemo";
+		};
+		F783CD0929AD3B6A005CAC6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F783CCE529AD3B67005CAC6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F783CCEC29AD3B67005CAC6A;
+			remoteInfo = "Malick'sdemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F783CCED29AD3B67005CAC6A /* Malick'sdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Malick'sdemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F783CCF029AD3B67005CAC6A /* Malick_sdemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Malick_sdemoApp.swift; sourceTree = "<group>"; };
+		F783CCF229AD3B67005CAC6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F783CCF429AD3B69005CAC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F783CCF629AD3B69005CAC6A /* Malick_sdemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Malick_sdemo.entitlements; sourceTree = "<group>"; };
+		F783CCF829AD3B69005CAC6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F783CCFE29AD3B6A005CAC6A /* Malick'sdemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Malick'sdemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F783CD0229AD3B6A005CAC6A /* Malick_sdemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Malick_sdemoTests.swift; sourceTree = "<group>"; };
+		F783CD0829AD3B6A005CAC6A /* Malick'sdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Malick'sdemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F783CD0C29AD3B6A005CAC6A /* Malick_sdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Malick_sdemoUITests.swift; sourceTree = "<group>"; };
+		F783CD0E29AD3B6A005CAC6A /* Malick_sdemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Malick_sdemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F783CCEA29AD3B67005CAC6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F783CCFB29AD3B6A005CAC6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F783CD0529AD3B6A005CAC6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F783CCE429AD3B67005CAC6A = {
+			isa = PBXGroup;
+			children = (
+				F783CCEF29AD3B67005CAC6A /* Malick'sdemo */,
+				F783CD0129AD3B6A005CAC6A /* Malick'sdemoTests */,
+				F783CD0B29AD3B6A005CAC6A /* Malick'sdemoUITests */,
+				F783CCEE29AD3B67005CAC6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F783CCEE29AD3B67005CAC6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F783CCED29AD3B67005CAC6A /* Malick'sdemo.app */,
+				F783CCFE29AD3B6A005CAC6A /* Malick'sdemoTests.xctest */,
+				F783CD0829AD3B6A005CAC6A /* Malick'sdemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F783CCEF29AD3B67005CAC6A /* Malick'sdemo */ = {
+			isa = PBXGroup;
+			children = (
+				F783CCF029AD3B67005CAC6A /* Malick_sdemoApp.swift */,
+				F783CCF229AD3B67005CAC6A /* ContentView.swift */,
+				F783CCF429AD3B69005CAC6A /* Assets.xcassets */,
+				F783CCF629AD3B69005CAC6A /* Malick_sdemo.entitlements */,
+				F783CCF729AD3B69005CAC6A /* Preview Content */,
+			);
+			path = "Malick'sdemo";
+			sourceTree = "<group>";
+		};
+		F783CCF729AD3B69005CAC6A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F783CCF829AD3B69005CAC6A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F783CD0129AD3B6A005CAC6A /* Malick'sdemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F783CD0229AD3B6A005CAC6A /* Malick_sdemoTests.swift */,
+			);
+			path = "Malick'sdemoTests";
+			sourceTree = "<group>";
+		};
+		F783CD0B29AD3B6A005CAC6A /* Malick'sdemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F783CD0C29AD3B6A005CAC6A /* Malick_sdemoUITests.swift */,
+				F783CD0E29AD3B6A005CAC6A /* Malick_sdemoUITestsLaunchTests.swift */,
+			);
+			path = "Malick'sdemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F783CCEC29AD3B67005CAC6A /* Malick'sdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F783CD1229AD3B6A005CAC6A /* Build configuration list for PBXNativeTarget "Malick'sdemo" */;
+			buildPhases = (
+				F783CCE929AD3B67005CAC6A /* Sources */,
+				F783CCEA29AD3B67005CAC6A /* Frameworks */,
+				F783CCEB29AD3B67005CAC6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Malick'sdemo";
+			productName = "Malick'sdemo";
+			productReference = F783CCED29AD3B67005CAC6A /* Malick'sdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F783CCFD29AD3B6A005CAC6A /* Malick'sdemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F783CD1529AD3B6A005CAC6A /* Build configuration list for PBXNativeTarget "Malick'sdemoTests" */;
+			buildPhases = (
+				F783CCFA29AD3B6A005CAC6A /* Sources */,
+				F783CCFB29AD3B6A005CAC6A /* Frameworks */,
+				F783CCFC29AD3B6A005CAC6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F783CD0029AD3B6A005CAC6A /* PBXTargetDependency */,
+			);
+			name = "Malick'sdemoTests";
+			productName = "Malick'sdemoTests";
+			productReference = F783CCFE29AD3B6A005CAC6A /* Malick'sdemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F783CD0729AD3B6A005CAC6A /* Malick'sdemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F783CD1829AD3B6A005CAC6A /* Build configuration list for PBXNativeTarget "Malick'sdemoUITests" */;
+			buildPhases = (
+				F783CD0429AD3B6A005CAC6A /* Sources */,
+				F783CD0529AD3B6A005CAC6A /* Frameworks */,
+				F783CD0629AD3B6A005CAC6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F783CD0A29AD3B6A005CAC6A /* PBXTargetDependency */,
+			);
+			name = "Malick'sdemoUITests";
+			productName = "Malick'sdemoUITests";
+			productReference = F783CD0829AD3B6A005CAC6A /* Malick'sdemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F783CCE529AD3B67005CAC6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F783CCEC29AD3B67005CAC6A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F783CCFD29AD3B6A005CAC6A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F783CCEC29AD3B67005CAC6A;
+					};
+					F783CD0729AD3B6A005CAC6A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F783CCEC29AD3B67005CAC6A;
+					};
+				};
+			};
+			buildConfigurationList = F783CCE829AD3B67005CAC6A /* Build configuration list for PBXProject "Malick'sdemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F783CCE429AD3B67005CAC6A;
+			productRefGroup = F783CCEE29AD3B67005CAC6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F783CCEC29AD3B67005CAC6A /* Malick'sdemo */,
+				F783CCFD29AD3B6A005CAC6A /* Malick'sdemoTests */,
+				F783CD0729AD3B6A005CAC6A /* Malick'sdemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F783CCEB29AD3B67005CAC6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F783CCF929AD3B69005CAC6A /* Preview Assets.xcassets in Resources */,
+				F783CCF529AD3B69005CAC6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F783CCFC29AD3B6A005CAC6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F783CD0629AD3B6A005CAC6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F783CCE929AD3B67005CAC6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F783CCF329AD3B67005CAC6A /* ContentView.swift in Sources */,
+				F783CCF129AD3B67005CAC6A /* Malick_sdemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F783CCFA29AD3B6A005CAC6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F783CD0329AD3B6A005CAC6A /* Malick_sdemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F783CD0429AD3B6A005CAC6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F783CD0F29AD3B6A005CAC6A /* Malick_sdemoUITestsLaunchTests.swift in Sources */,
+				F783CD0D29AD3B6A005CAC6A /* Malick_sdemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F783CD0029AD3B6A005CAC6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F783CCEC29AD3B67005CAC6A /* Malick'sdemo */;
+			targetProxy = F783CCFF29AD3B6A005CAC6A /* PBXContainerItemProxy */;
+		};
+		F783CD0A29AD3B6A005CAC6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F783CCEC29AD3B67005CAC6A /* Malick'sdemo */;
+			targetProxy = F783CD0929AD3B6A005CAC6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F783CD1029AD3B6A005CAC6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F783CD1129AD3B6A005CAC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F783CD1329AD3B6A005CAC6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Malick'sdemo/Malick_sdemo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Malick'sdemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Malickjibril.SourceControlDemo.Malick-sdemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F783CD1429AD3B6A005CAC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Malick'sdemo/Malick_sdemo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Malick'sdemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Malickjibril.SourceControlDemo.Malick-sdemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F783CD1629AD3B6A005CAC6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Malickjibril.SourceControlDemo.Malick-sdemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Malick'sdemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Malick'sdemo";
+			};
+			name = Debug;
+		};
+		F783CD1729AD3B6A005CAC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Malickjibril.SourceControlDemo.Malick-sdemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Malick'sdemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Malick'sdemo";
+			};
+			name = Release;
+		};
+		F783CD1929AD3B6A005CAC6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Malickjibril.SourceControlDemo.Malick-sdemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Malick'sdemo";
+			};
+			name = Debug;
+		};
+		F783CD1A29AD3B6A005CAC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Malickjibril.SourceControlDemo.Malick-sdemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Malick'sdemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F783CCE829AD3B67005CAC6A /* Build configuration list for PBXProject "Malick'sdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F783CD1029AD3B6A005CAC6A /* Debug */,
+				F783CD1129AD3B6A005CAC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F783CD1229AD3B6A005CAC6A /* Build configuration list for PBXNativeTarget "Malick'sdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F783CD1329AD3B6A005CAC6A /* Debug */,
+				F783CD1429AD3B6A005CAC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F783CD1529AD3B6A005CAC6A /* Build configuration list for PBXNativeTarget "Malick'sdemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F783CD1629AD3B6A005CAC6A /* Debug */,
+				F783CD1729AD3B6A005CAC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F783CD1829AD3B6A005CAC6A /* Build configuration list for PBXNativeTarget "Malick'sdemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F783CD1929AD3B6A005CAC6A /* Debug */,
+				F783CD1A29AD3B6A005CAC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F783CCE529AD3B67005CAC6A /* Project object */;
+}
